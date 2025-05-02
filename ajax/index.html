@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Registration</title>
+</head>
+<body>
+  <h2>User Registration</h2>
+  <form id="registrationForm">
+    <label>Name: <input type="text" name="name" required /></label><br>
+    <label>Email: <input type="email" name="email" required /></label><br>
+    <label>Password: <input type="password" name="password" required /></label><br>
+    <button type="submit">Register</button>
+  </form>
+  <h3>Registered Users</h3>
+    <div id="userList"></div>
+    <button onclick="loadUsers()">Load Registered Users</button>
+
+
+  <script src="register.js"></script>
+</body>
+</html>
